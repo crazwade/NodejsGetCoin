@@ -1,9 +1,12 @@
 {
   "name": "NodejsGetCoin",
   "version": "1.0.0",
+  "homepage": "https://crazwade.github.io/NodejsGetCoin",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +19,7 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "firebase": "^8.6.8",
+    "gh-pages": "^3.2.3",
     "git": "^0.1.5",
     "git-all": "0.0.3"
   },
