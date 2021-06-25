@@ -1,0 +1,27 @@
+body{
+    margin: 30px;
+}
+
+.table{
+    margin-top:90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table thead{
+    font-weight: bold;
+    background-color: gray;
+    color: aliceblue;
+}
+
+.jumbotron{
+    display: none;
+}
+
+#mycoin_data tr td{
+    vertical-align: middle;
+}
+
+#coin_data tr td{
+    vertical-align: middle;
+}
